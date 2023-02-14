@@ -1,0 +1,27 @@
+*{
+    padding:0px ;
+    margin: 0px;
+}
+.background::before{
+    content: '';
+    background-image: url(media/images/ryunosuke-kikuno-FKqxZ58bVjU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    
+}
+p{
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bolder;
+}
+.background{
+    margin-top: 20%;
+}
